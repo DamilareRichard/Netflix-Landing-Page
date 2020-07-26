@@ -473,7 +473,7 @@ header{
 
 	.class1, .class2, .class3 {
 		display: block;
-		margin-top: -65px;
+		margin-top: -63px;
 	}
 
 	.class1 img {
@@ -496,20 +496,22 @@ header{
 	}
 
 	.class1 h3 {
-		font-size: 35px;
+		font-size: 30px;
 		margin-left: -120px;
 		line-height: 100px;
+		margin-bottom: -20px;
 	}
 
 	.class1 p {
 		font-size: 20px;
 		margin-left: -120px;
-		width: 170%;
+		width: 150%;
 		
 	}
 
 	.class2-text h3 {
-		font-size: 35px;
+		font-size: 30px;
+		width: 70%;
 		margin-left: 20px;
 	}
 
@@ -537,8 +539,8 @@ header{
 	}
 	
 	.questions h2 {
-		font-size: 26px;
-		line-height: 28px;
+		font-size: 30px;
+		line-height: 33px;
 		margin-bottom: 35px;
 	}
 
@@ -550,7 +552,7 @@ header{
 .soft-header {
 	padding: 22px 0;
 	width: 114%;
-	margin-left: -18px;
+	margin-left: -20px;
 }
 
 .soft-header p {
