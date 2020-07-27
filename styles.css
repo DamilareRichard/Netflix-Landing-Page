@@ -317,20 +317,21 @@ header{
 	align-content: center;
 }
 
+.questions input, button {
+	margin-bottom: 20px;
+}
 .questions input{
-	padding: 18px 130px;
+	padding: 22px 120px;
 	background-color: #fff;
     outline: none;
 	border: none;
 	color: #000;
 	text-align: left;
-	margin-left: 0;
-	margin-bottom: 50px;
 	
 } 
 
 .questions button {
-	padding: 18px 40px;
+	padding: 22px 25px;
 	background-color: #E50914;
 	color: #fff;
 	margin-right: 0px;
@@ -339,9 +340,9 @@ header{
 	font-family: Arial;
 	font-weight: bold;
 	font-size: 14px;
-	text-transform: uppercase;
 	cursor: pointer;
-	margin-bottom: 50px;
+	text-transform: uppercase;
+
 }
 
 .questions button i {
@@ -574,16 +575,17 @@ header{
 }
 
 	.questions input {
-		padding: 15px 62px;
-		margin-bottom: 20px;
-		margin-left: 25px;
+		margin-bottom: 15px;
+		padding: 15px 70px;
+		margin-left: 40px;
 		margin-top: -10px;
+		
+		
 	}
 
 	.questions button {
-		padding: 15px 20px;
-		margin-bottom: 20px;
-		margin-left: 80px;
+		padding: 15px 25px;
+		margin-left: 0px;
 	}
 
 	.sign {
@@ -620,5 +622,22 @@ header{
 		margin-left: 10px;
 		margin-top: 50px;
 		font-size: 15px;
+	}
+}
+
+
+@media screen and (max-width: 557px) {
+
+	.questions input {
+		margin-bottom: 15px;
+		padding: 15px 70px;
+		margin-left: 25px;
+		margin-top: -10px;	
+	}
+
+
+	.questions button {
+		padding: 15px 25px;
+		margin-left: 80px;
 	}
 }
